@@ -3,12 +3,14 @@
     <nav id="sidebar">
         <div class="sidebar-header">
 
-            <img src="../../../assets/logo.png" width=150px height=150px>
+            <img src="../../../assets/logo.png" width=150px height=170px>
 
-            <h3>BESA</h3>
+
 
         </div>
-
+        <div class="sidebar-txt">
+            <h3>B.E.S.A.</h3>
+        </div>
         <ul class="list-unstyled components">
 
             Seleccione una opción
@@ -43,23 +45,46 @@
                     </li>
                 </ul>
             </li>
+
             <li>
-                <a href="#">Fin de vigencia</a>
+                <a href="#pageSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Informe</a>
+                <ul class="collapse list-unstyled" id="pageSubmenu2">
+                    <li>
+                        <a href="#">Informe 70-30</a>
+                    </li>
+
+                    <li>
+
+                        <a href="#">Informe montos por procedimiento</a>
+                    </li>
+                </ul>
             </li>
             <li>
-                <a href="#">Informe montos por procedimiento</a>
+                <a href="#pageSubmenu3" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Fecha</a>
+                <ul class="collapse list-unstyled" id="pageSubmenu3">
+                    <li>
+                        <a href="#">Fechas entregables</a>
+
+                    </li>
+
+                    <li>
+                        <a href="#">Fecha de formalización</a>
+                    </li>
+                </ul>
             </li>
+
             <li>
-                <a href="#">Informe 70-30</a>
-            </li>
-            <li>
-                <a href="#">Fecha de formalización</a>
-            </li>
-            <li>
-                <a href="#">Fechas entregables</a>
-            </li>
-            <li>
-                <a href="#">Top montos por contrato</a>
+                <a href="#pageSubmenu4" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Otros</a>
+                <ul class="collapse list-unstyled" id="pageSubmenu4">
+                    <li>
+                        <a href="#">Fin de vigencia</a>
+
+                    </li>
+                    <li>
+                        <a href="#">Top montos por contrato</a>
+                    </li>
+                </ul>
+
             </li>
             <li>
                 <a href="#">Acerca de BESA</a>
@@ -74,6 +99,7 @@
                 <a href="#" class="article">Menu</a>
             </li>
         </ul>
+
     </nav>
 
     <!-- Page Content  -->
@@ -86,7 +112,7 @@
                         <i class="fas fa-align-left"></i>
                         <span></span>
                     </button>
-                <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="btn-derecho">
                         <i class="fas fa-align-justify"></i>
                     </button>
 

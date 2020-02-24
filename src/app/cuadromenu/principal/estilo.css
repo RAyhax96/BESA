@@ -70,6 +70,11 @@ a:focus {
 #sidebar .sidebar-header {
     padding: 20px;
     background: #590000;
+    margin: 25px;
+}
+
+#sidebar .sidebar-txt {
+    margin: 5px;
 }
 
 #sidebar ul.components {
@@ -130,14 +135,33 @@ ul.CTAs a {
 }
 
 a.download {
-    background: #fff;
-    color: rgb(0, 0, 0);
+    background: rgba(122, 36, 36, 1);
+    background: -moz-linear-gradient(left, rgba(122, 36, 36, 1) 0%, rgba(82, 15, 15, 1) 52%, rgba(102, 19, 19, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(122, 36, 36, 1)), color-stop(52%, rgba(82, 15, 15, 1)), color-stop(100%, rgba(102, 19, 19, 1)));
+    background: -webkit-linear-gradient(left, rgba(122, 36, 36, 1) 0%, rgba(82, 15, 15, 1) 52%, rgba(102, 19, 19, 1) 100%);
+    background: -o-linear-gradient(left, rgba(122, 36, 36, 1) 0%, rgba(82, 15, 15, 1) 52%, rgba(102, 19, 19, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(122, 36, 36, 1) 0%, rgba(82, 15, 15, 1) 52%, rgba(102, 19, 19, 1) 100%);
+    background: linear-gradient(to right, rgba(122, 36, 36, 1) 0%, rgba(82, 15, 15, 1) 52%, rgba(102, 19, 19, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#7a2424', endColorstr='#661313', GradientType=1);
+    -webkit-box-shadow: -7px 11px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -7px 11px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -7px 11px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 a.article,
 a.article:hover {
-    background: #000000 !important;
-    color: #fff !important;
+    background: rgba(122, 36, 36, 1);
+    background: -moz-linear-gradient(left, rgba(122, 36, 36, 1) 0%, rgba(82, 15, 15, 1) 52%, rgba(102, 19, 19, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(122, 36, 36, 1)), color-stop(52%, rgba(82, 15, 15, 1)), color-stop(100%, rgba(102, 19, 19, 1)));
+    background: -webkit-linear-gradient(left, rgba(122, 36, 36, 1) 0%, rgba(82, 15, 15, 1) 52%, rgba(102, 19, 19, 1) 100%);
+    background: -o-linear-gradient(left, rgba(122, 36, 36, 1) 0%, rgba(82, 15, 15, 1) 52%, rgba(102, 19, 19, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(122, 36, 36, 1) 0%, rgba(82, 15, 15, 1) 52%, rgba(102, 19, 19, 1) 100%);
+    background: linear-gradient(to right, rgba(122, 36, 36, 1) 0%, rgba(82, 15, 15, 1) 52%, rgba(102, 19, 19, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#7a2424', endColorstr='#661313', GradientType=1);
+    -webkit-box-shadow: -7px 11px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -7px 11px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -7px 11px 5px 0px rgba(0, 0, 0, 0.75);
+    margin-top: 15px;
 }
 
 #btnac{
@@ -173,6 +197,25 @@ a.article:hover {
     padding: 20px;
     min-height: 100vh;
     transition: all 0.3s;
+}
+
+#navbarSupportedContent {
+    background: rgba(122, 36, 36, 1);
+    background: -moz-linear-gradient(left, rgba(122, 36, 36, 1) 0%, rgba(82, 15, 15, 1) 0%, rgba(102, 19, 19, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(122, 36, 36, 1)), color-stop(0%, rgba(82, 15, 15, 1)), color-stop(100%, rgba(102, 19, 19, 1)));
+    background: -webkit-linear-gradient(left, rgba(122, 36, 36, 1) 0%, rgba(82, 15, 15, 1) 0%, rgba(102, 19, 19, 1) 100%);
+    background: -o-linear-gradient(left, rgba(122, 36, 36, 1) 0%, rgba(82, 15, 15, 1) 0%, rgba(102, 19, 19, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(122, 36, 36, 1) 0%, rgba(82, 15, 15, 1) 0%, rgba(102, 19, 19, 1) 100%);
+    background: linear-gradient(to right, rgba(122, 36, 36, 1) 0%, rgba(82, 15, 15, 1) 0%, rgba(102, 19, 19, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#7a2424', endColorstr='#661313', GradientType=1);
+}
+
+#sidebarCollapse {
+    background-color: #590000;
+}
+
+#btn-derecho {
+    background-color: #590000;
 }
 
 
