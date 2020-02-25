@@ -1,0 +1,49 @@
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+.con{
+  background: rgba(122, 36, 36, 1);
+  background: -moz-linear-gradient(left, rgba(122, 36, 36, 1) 0%, rgba(82, 15, 15, 1) 52%, rgba(102, 19, 19, 1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(122, 36, 36, 1)), color-stop(52%, rgba(82, 15, 15, 1)), color-stop(100%, rgba(102, 19, 19, 1)));
+  background: -webkit-linear-gradient(left, rgba(122, 36, 36, 1) 0%, rgba(82, 15, 15, 1) 52%, rgba(102, 19, 19, 1) 100%);
+  background: -o-linear-gradient(left, rgba(122, 36, 36, 1) 0%, rgba(82, 15, 15, 1) 52%, rgba(102, 19, 19, 1) 100%);
+  background: -ms-linear-gradient(left, rgba(122, 36, 36, 1) 0%, rgba(82, 15, 15, 1) 52%, rgba(102, 19, 19, 1) 100%);
+  background: linear-gradient(to right, rgba(122, 36, 36, 1) 0%, rgba(82, 15, 15, 1) 52%, rgba(102, 19, 19, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#7a2424', endColorstr='#661313', GradientType=1);
+  -webkit-box-shadow: -7px 11px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -7px 11px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -7px 11px 5px 0px rgba(0, 0, 0, 0.75);
+  color:white;
+}
+.reg{
+  background: rgba(122, 36, 36, 1);
+  background: -moz-linear-gradient(left, rgba(122, 36, 36, 1) 0%, rgba(82, 15, 15, 1) 52%, rgba(102, 19, 19, 1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(122, 36, 36, 1)), color-stop(52%, rgba(82, 15, 15, 1)), color-stop(100%, rgba(102, 19, 19, 1)));
+  background: -webkit-linear-gradient(left, rgba(122, 36, 36, 1) 0%, rgba(82, 15, 15, 1) 52%, rgba(102, 19, 19, 1) 100%);
+  background: -o-linear-gradient(left, rgba(122, 36, 36, 1) 0%, rgba(82, 15, 15, 1) 52%, rgba(102, 19, 19, 1) 100%);
+  background: -ms-linear-gradient(left, rgba(122, 36, 36, 1) 0%, rgba(82, 15, 15, 1) 52%, rgba(102, 19, 19, 1) 100%);
+  background: linear-gradient(to right, rgba(122, 36, 36, 1) 0%, rgba(82, 15, 15, 1) 52%, rgba(102, 19, 19, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#7a2424', endColorstr='#661313', GradientType=1);
+  -webkit-box-shadow: -7px 11px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -7px 11px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -7px 11px 5px 0px rgba(0, 0, 0, 0.75);
+  color:white;
+  margin-left: 50px;
+}
+
+.sel{
+  margin-left: 135px;
+}
+
+.sg{
+  margin: 200px;
+  margin-left: 300px;
+}
+.be{
+  margin-left: 260px;
+}
+.sd{
+  margin-left: 50px;
+}
+.see{
+  margin-left: 120px;
+}
