@@ -1,9 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {ConsultaPorNumeroDeContratoComponent }from './cuadromenu/consulta-por-numero-de-contrato/consulta-por-numero-de-contrato.component';
+import { PrincipalComponent } from './cuadromenu/principal/principal.component';
+import { PruebasComponent } from './pruebas/pruebas.component';
 
 const routes: Routes = [
-  { path: 'inicio', component: ConsultaPorNumeroDeContratoComponent },
+ 
+  { path: 'inicio', component: PrincipalComponent },
+  { path: 'pruebas', component: PruebasComponent },
   { path: '**', pathMatch: 'full', redirectTo: 'inicio' },
 ];
 

@@ -6,10 +6,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./estilo.css']
 })
 export class PrincipalComponent implements OnInit {
+  public load: boolean;
+  constructor() { 
+   
 
-  constructor() {  }
-
-  ngOnInit(): void {
+    this.load = false;
   }
+ 
+
+ngOnInit(): void {
+  setTimeout(() => {
+    this.load = true;
+  }, 5000);
+
+}
+
 
 }

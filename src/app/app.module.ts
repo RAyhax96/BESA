@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PrincipalComponent } from './cuadromenu/principal/principal.component';
 import { ConsultaPorNumeroDeContratoComponent } from './cuadromenu/consulta-por-numero-de-contrato/consulta-por-numero-de-contrato.component';
+import { PruebasComponent } from './pruebas/pruebas.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PrincipalComponent,
-    ConsultaPorNumeroDeContratoComponent
+    ConsultaPorNumeroDeContratoComponent,
+    PruebasComponent
   ],
   imports: [
     BrowserModule,
