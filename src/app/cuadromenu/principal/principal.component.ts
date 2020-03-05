@@ -7,17 +7,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PrincipalComponent implements OnInit {
   public load: boolean;
+  public cargablur: boolean;
   constructor() { 
    
-
+  this.cargablur=false;
     this.load = false;
   }
  
-
+  carga(): void {
+    setTimeout(() => {
+      this.cargablur = true;
+    }, 6000);
+  
+  }
 ngOnInit(): void {
   setTimeout(() => {
     this.load = true;
-  }, 5000);
+  }, 6000);
 
 }
 
