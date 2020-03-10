@@ -1,0 +1,15 @@
+.spinner {
+    background-image: url(../assets/logo.gif);
+    background-attachment: fixed;
+    position: absolute;
+    left: 0%;
+    right: 200%;
+    top: 0%;
+    bottom: 100%;
+    z-index: 1;
+    height: 100%;
+    width: 500%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
