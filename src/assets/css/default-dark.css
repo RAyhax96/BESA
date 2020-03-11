@@ -1,5 +1,5 @@
 ul.CTAs a {
-    background-color: rgb(167, 167, 167);
+    background-color: rgb(30, 40, 54);
     text-align: center;
     font-size: 0.9em !important;
     display: block;
@@ -8,25 +8,11 @@ ul.CTAs a {
 }
 
 
-/*boton atras*/
-
-
 /*boton menu*/
 
 a.btnmenu,
 a.btnmenu:hover {
-    background: rgb(25, 22, 46);
-    background: -moz-linear-gradient(left, rgba(27, 31, 61) 0%, rgba(40, 36, 56) 52%, rgba(40, 36, 56) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(27, 31, 61)), color-stop(52%, rgba(40, 36, 56)), color-stop(100%, rgba(40, 36, 56)));
-    background: -webkit-linear-gradient(left, rgba(27, 31, 61) 0%, rgba(840, 36, 56) 52%, rgba(40, 36, 56) 100%);
-    background: -o-linear-gradient(left, rgba(27, 31, 61) 0%, rgba(40, 36, 56) 52%, rgba(40, 36, 56) 100%);
-    background: -ms-linear-gradient(left, rgba(27, 31, 61) 0%, rgba(40, 36, 56) 52%, rgba(40, 36, 56) 100%);
-    background: linear-gradient(to right, rgba(27, 31, 61) 0%, rgba(40, 36, 56) 52%, rgb(40, 36, 56) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#7a2424', endColorstr='#661313', GradientType=1);
-    -webkit-box-shadow: -7px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -7px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: -7px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    margin-top: 15px;
+    background-color: #242a33;
 }
 
 #posicion1 {
@@ -73,7 +59,7 @@ a.btnmenu:hover {
     color: #fefeff;
 }
 
-.topbar .navbar-light .navbar-nav .nav-item>a.nav-link {
+.topbar .navbar-light .navbar-nav .nav-item>a.nav-link:hover {
     background: rgba(122, 36, 36, 1);
     background: -moz-linear-gradient(left, rgba(122, 36, 36, 1) 0%, rgba(82, 15, 15, 1) 52%, rgba(102, 19, 19, 1) 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(122, 36, 36, 1)), color-stop(52%, rgba(82, 15, 15, 1)), color-stop(100%, rgba(102, 19, 19, 1)));
@@ -105,7 +91,7 @@ a.btnmenu:hover {
 
 .logo-center .topbar .top-navbar .navbar-header .navbar-brand .light-logo {
     display: inline-block;
-    color: rgba(255, 255, 255, 0.8);
+    color: #fff;
 }
 
 
@@ -146,7 +132,7 @@ a.link:focus {
 }
 
 .text-themecolor {
-    color: #747474 !important;
+    color: #000000 !important;
 }
 
 .profile-tab li a.nav-link.active,
@@ -158,6 +144,20 @@ a.link:focus {
 .profile-tab li a.nav-link:hover,
 .customtab li a.nav-link:hover {
     color: #398bf7;
+}
+
+#btn-active:hover {
+    background: rgba(122, 36, 36, 1);
+    background: -moz-linear-gradient(left, rgba(122, 36, 36, 1) 0%, rgba(82, 15, 15, 1) 52%, rgba(102, 19, 19, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(122, 36, 36, 1)), color-stop(52%, rgba(82, 15, 15, 1)), color-stop(100%, rgba(102, 19, 19, 1)));
+    background: -webkit-linear-gradient(left, rgba(122, 36, 36, 1) 0%, rgba(82, 15, 15, 1) 52%, rgba(102, 19, 19, 1) 100%);
+    background: -o-linear-gradient(left, rgba(122, 36, 36, 1) 0%, rgba(82, 15, 15, 1) 52%, rgba(102, 19, 19, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(122, 36, 36, 1) 0%, rgba(82, 15, 15, 1) 52%, rgba(102, 19, 19, 1) 100%);
+    background: linear-gradient(to right, rgba(122, 36, 36, 1) 0%, rgba(82, 15, 15, 1) 52%, rgba(102, 19, 19, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#7a2424', endColorstr='#661313', GradientType=1);
+    -webkit-box-shadow: -7px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -7px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -7px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 
