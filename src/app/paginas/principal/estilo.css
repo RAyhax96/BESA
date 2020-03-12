@@ -1,5 +1,3 @@
-/* DEMO STYLE */
-
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 body {
     font-family: "Montserrat", sans-serif;
@@ -31,6 +29,9 @@ p {
 }
 
 #posicion1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
     text-align: center;
 }
 

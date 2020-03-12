@@ -21,7 +21,7 @@ const routes: Routes = [
  
   { path: 'pruebas', component: PruebasComponent },
   { path: 'sidebar', component: SidebarComponent },
-  { path: 'breadcrubs', component: BreadcrumbsComponent },
+  { path: 'breadcrumbs', component: BreadcrumbsComponent },
   { path: 'login', component: LoginComponent },
   { path: '**', component: NotfoundComponent },
 
