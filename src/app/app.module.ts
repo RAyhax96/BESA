@@ -15,6 +15,7 @@ import { LoginComponent } from './login/login.component';
 import { PaginasComponent } from './paginas/paginas.component';
 import { SharedComponent } from './shared/shared.component';
 import { NotfoundComponent } from './shared/notfound/notfound.component';
+import { RegisterComponent } from './login/register.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +26,8 @@ import { NotfoundComponent } from './shared/notfound/notfound.component';
     LoginComponent,
     PaginasComponent,
     SharedComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    RegisterComponent
   ],
   imports: [
     APP_ROUTES,

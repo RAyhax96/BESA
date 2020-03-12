@@ -7,6 +7,7 @@ import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { BreadcrumbsComponent } from './shared/breadcrumbs/breadcrumbs.component';
 import { NotfoundComponent } from './shared/notfound/notfound.component';
 import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './login/register.component';
 
 
 const routes: Routes = [
@@ -23,6 +24,7 @@ const routes: Routes = [
   { path: 'sidebar', component: SidebarComponent },
   { path: 'breadcrumbs', component: BreadcrumbsComponent },
   { path: 'login', component: LoginComponent },
+  { path: 'register', component: RegisterComponent },
   { path: '**', component: NotfoundComponent },
 
 ];
